@@ -1,0 +1,6 @@
+{
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null"
+  }
+} //auth  가 널이여야 사용하겠다. 널은 로그인이 안되어있는것.
